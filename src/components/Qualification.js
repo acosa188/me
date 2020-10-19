@@ -2,6 +2,7 @@ import React from 'react';
 import personDumpling from '../images/person-n-dumpling.png';
 import githubLogo from '../images/github-brands.svg';
 import linkedInLogo from '../images/linkedin-brands.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import styled from 'styled-components';
 

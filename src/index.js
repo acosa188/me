@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import Intro from './components/Intro';
 import AboutMe from './components/AboutMe';

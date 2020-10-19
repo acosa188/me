@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import axios from 'axios';
 import ProjectsPreview from './ProjectsPreview';
+import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Projects.css'
 
 const ProjectContainer = styled.div`

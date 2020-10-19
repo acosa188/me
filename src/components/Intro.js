@@ -1,6 +1,8 @@
 import React from 'react';
 import profilePic from '../images/person-profile.png';
+import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Intro.css';
+
 
 const Intro = () => {
     return (

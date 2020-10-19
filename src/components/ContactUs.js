@@ -1,6 +1,7 @@
 import React from 'react';
 import * as emailJS from 'emailjs-com';
 import styled from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const ContactUsContainer = styled.div`
     margin: 800px 0px;

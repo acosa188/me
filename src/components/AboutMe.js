@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const AboutMeContainer = styled.div`
-    margin-top: 63.75rem;
+    margin-top: 1020px;
     width: 39.375rem;
     min-height: 31.9375rem;
 `;
