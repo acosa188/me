@@ -10,7 +10,7 @@ const Intro = () => {
             <div className="jumbotron">
                 <div className="row">
                     <div className="col">
-                        <img src={profilePic} className="profileClass img-fluid" alt="animated profile" />
+                        <img src={profilePic} className="profileClass img-fluid py-5 pl-5 pr-1" alt="animated profile" />
                     </div>
                     <div className="col">
                         <div className="d-flex flex-column">

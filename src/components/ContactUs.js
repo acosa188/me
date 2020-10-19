@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const ContactUsContainer = styled.div`
-    margin: 800px 0px;
+    margin: 400px 0px;
     text-align: center;
 `;
 
@@ -29,7 +29,7 @@ const Label = styled.label`
 
 const TextArea = styled.textarea`
     min-height: 425px;
-    opacity: 0.4;
+    opacity: 0.6;
 
     &:focus{
         opacity: 1;
@@ -38,7 +38,7 @@ const TextArea = styled.textarea`
 
 const Input = styled.input`
     min-height: 70px;
-    opacity: 0.4;
+    opacity: 0.6;
 
     &:focus{
         opacity: 1;

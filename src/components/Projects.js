@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Projects.css'
 
 const ProjectContainer = styled.div`
-    margin-top: 1980px;
+    margin-top: 1400px;
 `;
 
 const Header = styled.p`
