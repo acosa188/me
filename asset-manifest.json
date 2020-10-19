@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.8173c090.chunk.css",
+    "main.js": "/me/static/js/main.06791933.chunk.js",
+    "main.js.map": "/me/static/js/main.06791933.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.8e474a00.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.8e474a00.js.map",
+    "static/js/2.a1ea684e.chunk.js": "/me/static/js/2.a1ea684e.chunk.js",
+    "static/js/2.a1ea684e.chunk.js.map": "/me/static/js/2.a1ea684e.chunk.js.map",
+    "index.html": "/me/index.html",
+    "precache-manifest.7ead7e5d88dbd63b8f09ef22fcc0bde4.js": "/me/precache-manifest.7ead7e5d88dbd63b8f09ef22fcc0bde4.js",
+    "service-worker.js": "/me/service-worker.js",
+    "static/css/main.8173c090.chunk.css.map": "/me/static/css/main.8173c090.chunk.css.map",
+    "static/js/2.a1ea684e.chunk.js.LICENSE.txt": "/me/static/js/2.a1ea684e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/me/static/media/background.ae598126.jpg",
+    "static/media/github-brands.svg": "/me/static/media/github-brands.74a381dd.svg",
+    "static/media/linkedin-brands.svg": "/me/static/media/linkedin-brands.b67ab590.svg",
+    "static/media/person-n-dumpling.png": "/me/static/media/person-n-dumpling.091fa4c5.png",
+    "static/media/person-profile.png": "/me/static/media/person-profile.6a6ac600.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e474a00.js",
+    "static/js/2.a1ea684e.chunk.js",
+    "static/css/main.8173c090.chunk.css",
+    "static/js/main.06791933.chunk.js"
+  ]
+}
