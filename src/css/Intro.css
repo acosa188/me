@@ -1,0 +1,104 @@
+.jumbotron{
+    background-color: transparent;
+}
+
+.profileClass .img-fluid{
+    max-height: 984px;
+}
+
+.name-container{
+    position: relative;
+}
+
+.name-container h2{
+    position: absolute;
+    left:120px;
+}
+
+.name-container h2.name-label{
+    top: 50px;
+}
+
+.of-label-bg{
+    position: absolute;
+    background-color: #E29126;
+    width: 100px;
+    height: 30px;
+    top: 15px;
+    left: 100px;
+}
+
+.name-label-bg{
+    position: absolute;
+    background-color: #E29126;
+    width: 300px;
+    height: 30px;
+    top: 65px;
+    left: 100px;
+}
+
+/* Portfolio Animation */
+.logo-container{
+    margin-top: 150px;
+    padding: 50px 0;
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+svg#diagonal-line{
+    stroke: white;
+    fill: transparent;
+    animation-name: diag;
+    animation-duration: 0.55s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes diag{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(90deg);}
+}
+
+.port-container{
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 5rem;
+    color: #AB7648;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    animation: 0.45s linear slide-right;
+}
+
+@keyframes slide-right{
+    from{
+        margin-left: -100%;
+
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
+.folio-container{
+    font-weight: bold;   
+    font-size: 5rem;
+    color: #121C26;
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    animation: 0.45s linear slide-left;
+}
+
+@keyframes slide-left{
+    from{
+        margin-left: 100%;
+
+    }
+    to{
+        margin-left: 0%;
+    }
+}

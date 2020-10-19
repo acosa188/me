@@ -1,0 +1,25 @@
+.qualificationClass{
+    margin-top: 980px;
+}
+
+.qualificationClass ul{
+    padding-left: 20px;
+}
+
+.qualificationClass li{
+    font-size: 26px;
+}
+
+
+.qualificationClass .img-fluid{
+    max-height: 927px;
+    margin-left: 50px;
+}
+
+.qualificationClass .marginLeftFix{
+    margin-left: 150px;
+}
+
+.qualificationClass .socialMarginTopFix{
+    margin-top: -20px;
+}
