@@ -2,15 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 
 const AboutMeContainer = styled.div`
-    margin-top: 1020px;
-    width: 630px;
-    min-height: 511px;
+    margin-top: 63.75rem;
+    width: 39.375rem;
+    min-height: 31.9375rem;
 `;
 
 const HeadingLabel = styled.p`
     width: 500px;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: bold;
 `;
 
@@ -44,7 +44,7 @@ const AboutMeLabel = styled.p`
     position: absolute;
     top: 75px;
     left: 0;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: 500;
     color: #707070;
     transform: rotate(270deg);
