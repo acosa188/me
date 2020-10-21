@@ -68,9 +68,7 @@ class ContactUs extends React.Component {
             email: '',
             name: '',
             subject: '',
-            message: '',
-            toastShow: false,
-            toastToggle: false
+            message: ''
         }
     }
 

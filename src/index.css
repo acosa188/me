@@ -2,6 +2,7 @@
 
 html{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{ 
@@ -11,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-position: top;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1{

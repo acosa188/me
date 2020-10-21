@@ -9,10 +9,10 @@ const Intro = () => {
         <div className="introClass">
             <div className="jumbotron">
                 <div className="row">
-                    <div className="col">
-                        <img src={profilePic} className="profileClass img-fluid py-5 pl-5 pr-1" alt="animated profile" />
+                    <div className="col col-md-6">
+                        <img src={profilePic} className="profileClass img-fluid py-5 pl-5 py-md-3 pl-md-3 pr-1" alt="animated profile" />
                     </div>
-                    <div className="col">
+                    <div className="col col-md-6">
                         <div className="d-flex flex-column">
                             <div className="logo-container img-fluid">
                                 <svg id="diagonal-line" xmlns="http://www.w3.org/2000/svg" width="420.729" height="420.729" viewBox="0 0 401.759 468.544">

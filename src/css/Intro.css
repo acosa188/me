@@ -57,11 +57,6 @@ svg#diagonal-line{
     animation-timing-function: linear;
 }
 
-@keyframes diag{
-    from{transform: rotate(0deg);}
-    to{transform: rotate(90deg);}
-}
-
 .port-container{
     font-weight: bold;
     overflow: hidden;
@@ -71,16 +66,6 @@ svg#diagonal-line{
     top: 180px;
     left: 120px;
     animation: 0.45s linear slide-right;
-}
-
-@keyframes slide-right{
-    from{
-        margin-left: -100%;
-
-    }
-    to{
-        margin-left: 0%;
-    }
 }
 
 .folio-container{
@@ -93,6 +78,21 @@ svg#diagonal-line{
     animation: 0.45s linear slide-left;
 }
 
+@keyframes diag{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(90deg);}
+}
+
+@keyframes slide-right{
+    from{
+        margin-left: -100%;
+
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
 @keyframes slide-left{
     from{
         margin-left: 100%;
@@ -100,5 +100,162 @@ svg#diagonal-line{
     }
     to{
         margin-left: 0%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .logo-container{
+        margin-top: 50px;
+    }
+
+    svg#diagonal-line{
+        height: 210px;
+        width: 200px;
+    }
+
+    .port-container{
+        font-size: 3rem;
+        top: 100px;
+        left: 50px;
+    }
+
+    .folio-container{
+        font-size: 3rem;
+        top: 150px;
+        left: 50px;
+    }
+    
+    .name-container h2{
+        left: 50px;
+        font-size: 1.5rem;
+        width: 500px;
+    }
+    
+    .name-container h2.name-label{
+        top: 50px;
+    }
+    
+    .of-label-bg{
+        width: 80px;
+        height: 30px;
+        top: 10px;
+        left: 30px;
+    }
+    
+    .name-label-bg{
+        width: 220px;
+        height: 30px;
+        top: 60px;
+        left: 30px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .logo-container{
+        margin-top: 50px;
+    }
+
+    svg#diagonal-line{
+        height: 310px;
+        width: 300px;
+    }
+
+    .port-container{
+        font-size: 4rem;
+        top: 120px;
+        left: 70px;
+    }
+
+    .folio-container{
+        font-size: 4rem;
+        top: 190px;
+        left: 70px;
+    }
+    
+    .name-container h2{
+        left: 70px;
+        font-size: 1.8rem;
+        width: 500px;
+    }
+    
+    .name-container h2.name-label{
+        top: 50px;
+    }
+    
+    .of-label-bg{
+        width: 100px;
+        height: 30px;
+        top: 15px;
+        left: 50px;
+    }
+    
+    .name-label-bg{
+        width: 250px;
+        height: 30px;
+        top: 65px;
+        left: 50px;
+    }
+    
+}
+
+@media (min-width: 1700px){
+    .logo-container{
+        margin-top: 150px;
+    }
+}
+
+@media (min-width: 1910px) {
+    
+    .profileClass .img-fluid{
+        max-height: 984px;
+    }
+    
+    
+    .name-container h2{
+        left:120px;  
+        font-size: 2rem;  
+    }
+    
+    .name-container h2.name-label{
+        top: 55px;
+    }
+    
+    .of-label-bg{
+        width: 100px;
+        height: 30px;
+        top: 15px;
+        left: 100px;
+    }
+    
+    .name-label-bg{
+        width: 300px;
+        height: 30px;
+        top: 65px;
+        left: 100px;
+    }
+    
+    /* Portfolio Animation */
+    .logo-container{
+        margin-top: 150px;
+        padding: 50px 0;
+    } 
+    
+    .port-container{
+        font-size: 5rem;
+        top: 180px;
+        left: 120px;
+    }
+    
+    .folio-container{
+        font-size: 5rem;
+        top: 280px;
+        left: 120px;
+    }
+
+    svg#diagonal-line{
+        height: 410px;
+        width: 400px;
     }
 }
