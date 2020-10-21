@@ -22,3 +22,27 @@ h1{
 .appClass{
     margin: 0 320px;
 }
+
+@media (min-width: 1200px) {
+    .appClass{
+        margin: 0 180px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .appClass{
+        margin: 0 220px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .appClass{
+        margin: 0 250px;
+    }
+}
+
+@media (min-width: 1910px) {
+    .appClass{
+        margin: 0 320px;
+    }
+}
