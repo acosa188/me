@@ -7,7 +7,7 @@
 }
 
 .qualificationClass li{
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 
@@ -22,4 +22,50 @@
 
 .qualificationClass .socialMarginTopFix{
     margin-top: -20px;
+}
+
+@media (min-width: 1200px){
+
+    .qualificationClass{
+        margin-top: 150px;
+    }
+
+    .qualificationClass li{
+        font-size: 1rem;
+    }    
+
+    .qualificationClass .marginLeftFix{
+        margin-left: 120px;
+    }
+}
+
+@media (min-width: 1400px){
+    .qualificationClass li{
+        font-size: 1.1rem;
+    }   
+}
+
+@media (min-width: 1700px){
+
+    .qualificationClass{
+        margin-top: 400px;
+    }
+
+    .qualificationClass li{
+        font-size: 1.2rem;
+    }  
+}
+
+@media (min-width: 1910px){
+    .qualificationClass{
+        margin-top: 750px;
+    }
+
+    .qualificationClass li{
+        font-size: 1.625rem;
+    }
+
+    .qualificationClass .marginLeftFix{
+        margin-left: 150px;
+    }
 }

@@ -14,16 +14,63 @@ const Header = styled.p`
     font-size: 40px;
     font-weight: bold;
     margin-top: 45px;
+
+    @media (min-width: 1200px){
+        font-size: 1.7rem;
+    }
+
+    @media (min-width: 1400px){
+        font-size: 2.1rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 2.2rem;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 2.5rem;
+    }
 `;
 
 const RegularText = styled.p`
-    font-size: 26px;
+    font-size: 1.625rem;
+
+    @media (min-width: 1200px){
+        font-size: 1rem;
+    }
+
+    @media (min-width: 1400px){
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 1.2rem;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 1.625rem;
+    }
 `;
 
 const SubHeader = styled.p`
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
 
+    @media (min-width: 1200px){
+        font-size: 0.9rem;
+    }
+
+    @media (min-width: 1400px){
+        font-size: 1rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 1.5rem;
+    }
 `;
 
 const Link = styled.a`
@@ -38,14 +85,40 @@ const Link = styled.a`
 const FullStackDevLabel = styled(Header)`
     margin-top: -150px;
     margin-left: 150px;
+
+    @media (min-width: 1200px){
+        margin-top: -100px;
+        margin-left: 120px;
+    }
+
+    @media (min-width: 1910px){
+        margin-top: -150px;
+        margin-left: 150px;
+    }
 `;
 
 const EmailLabel = styled(SubHeader)`
     margin-left: 150px;
+
+    @media (min-width: 1200px){
+        margin-left: 120px;
+    }
+
+    @media (min-width: 1910px){
+        margin-left: 150px;
+    }
 `;
 
 const SocialMediaLabel = styled(Header)`
     margin-left: 150px;
+
+    @media (min-width: 1200px){
+        margin-left: 120px;
+    }
+
+    @media (min-width: 1910px){
+        margin-left: 150px;
+    }
 `;
 
 const Qualification = () =>{
@@ -100,11 +173,11 @@ const Qualification = () =>{
                         <li>Kanban, Scrum</li> 
                     </ul>
                 </div>
-                <div className="col">
+                <div className="col-5">
                     <img src={personDumpling} className="img-fluid" alt="person and dumpling"></img>
                     <FullStackDevLabel>Full Stack Developer</FullStackDevLabel>
                     <EmailLabel>Email: arjun.cosare@gmail.com</EmailLabel>
-                    <SocialMediaLabel className="mt-5">Social Media</SocialMediaLabel>
+                    <SocialMediaLabel className="mt-0 mt-lg-5">Social Media</SocialMediaLabel>
                     <div className="d-flex marginLeftFix socialMarginTopFix">
                         <Link href="https://github.com/acosa188" target="_blank" rel="noopener noreferrer" className="d-flex" style={{textDecoration:"none"}}>
                             <img src={githubLogo} alt="github logo"></img>

@@ -42,7 +42,7 @@ const HeadingLabel = styled.p`
     }
 
     @media (min-width: 1700px) {
-        font-size: 2rem;
+        font-size: 2.2rem;
         width: 440px;
     }
 
