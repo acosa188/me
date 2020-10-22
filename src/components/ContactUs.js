@@ -10,16 +10,53 @@ const ContactUsContainer = styled.div`
     margin-top: 400px;
     margin-bottom: 100px;
     text-align: center;
+
+    @media (min-width: 1200px){
+        margin-top: 180px;
+    }
+
+    @media (min-width: 1700px){
+        margin-top: 280px;
+    }
+    @media (min-width: 1910px){
+        margin-top: 400px;
+    }
 `;
 
 const SubHeader = styled.p`
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 40px;
     font-weight: bold;
+
+    @media (min-width: 1200px){
+        font-size: 1.7rem;
+    }
+    @media (min-width: 1400px){
+        font-size: 2.1rem;
+    }
+    @media (min-width: 1700px){
+        font-size: 2.2rem;
+    }
+    @media (min-width: 1910px){
+        font-size: 2.5rem;
+    }
 `;
 
 const Header = styled(SubHeader)`
     font-size: 50px;
+
+    @media (min-width: 1200px){
+        font-size: 2.3rem;
+    }
+    @media (min-width: 1400px){
+        font-size: 2.6rem;
+    }
+    @media (min-width: 1700px){
+        font-size: 2.7rem;
+    }
+    @media (min-width: 1910px){
+        font-size: 3.125rem;
+    }
 `;
 
 const Form = styled.form`
@@ -29,6 +66,19 @@ const Form = styled.form`
 
 const Label = styled.label`
     font-size: 36px;
+
+    @media (min-width: 1200px){
+        font-size: 1.3rem;
+    }
+    @media (min-width: 1400px){
+        font-size: 1.6rem;
+    }
+    @media (min-width: 1700px){
+        font-size: 1.7rem;
+    }
+    @media (min-width: 1910px){
+        font-size: 2.25rem;
+    }
 `;
 
 const TextArea = styled.textarea`
@@ -38,6 +88,17 @@ const TextArea = styled.textarea`
     &:focus{
         opacity: 1;
     }
+
+    @media (min-width: 1200px){
+        min-height: 250px;
+    }
+    @media (min-width: 1400px){
+        min-height: 350px;
+    }
+    @media (min-width: 1700px){
+        min-height: 425px;
+    }
+
 `;
 
 const Input = styled.input`
@@ -47,6 +108,15 @@ const Input = styled.input`
     &:focus{
         opacity: 1;
     }
+
+    @media (min-width: 1200px){
+        min-height: 50px;
+    }
+
+    @media (min-width: 1700px){
+        min-height: 70px;
+    }
+
 `;
 
 const Button = styled.div`
@@ -58,6 +128,18 @@ const Button = styled.div`
     background-color: #E29126;
     border:none;
     margin-top: 40px;
+
+    @media (min-width: 1200px){
+        font-size: 1.2rem;
+    }
+
+    @media (min-width: 1400px){
+        font-size: 1.4rem;
+    }
+    @media (min-width: 1700px){
+        font-size: 1.875rem;
+    }
+
 `;
 
 
