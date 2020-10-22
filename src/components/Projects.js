@@ -7,6 +7,22 @@ import '../css/Projects.css'
 
 const ProjectContainer = styled.div`
     margin-top: 1400px;
+
+    @media (min-width: 1200px){
+        margin-top: 850px;
+    }
+
+    @media (min-width: 1400px) {
+        margin-top: 1100px;
+    }
+
+    @media (min-width: 1700px) {
+        margin-top: 1250px;
+    }
+
+    @media (min-width: 1910px){
+        margin-top: 1400px;
+    }
 `;
 
 const Header = styled.p`
@@ -15,12 +31,46 @@ const Header = styled.p`
     font-weight: bold;
     margin-top: 45px;
     color: white;
+
+    @media (min-width: 1200px){
+        font-size: 1.7rem;
+    }
+
+    @media (min-width: 1400px) {
+        font-size: 2.1rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 2.2rem;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 2.5rem;
+    }
 `;
 
 const Qoute = styled.p`
     font-size: 26px;
     color: white;
     width: 1200px;
+
+    @media (min-width: 1200px){
+        font-size: 1rem;
+        width: 700px;
+    }
+
+    @media (min-width: 1400px) {
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 1.2rem;
+        width: 900px;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 1.625rem;
+    }
 `;
 
 const Button = styled.div`
@@ -47,6 +97,22 @@ const NavItems = styled.div`
 
     &:hover{
         cursor: pointer;
+    }
+
+    @media (min-width: 1200px){
+        font-size: 1.3rem;
+    }
+
+    @media (min-width: 1400px) {
+        font-size: 1.4rem;
+    }
+
+    @media (min-width: 1700px) {
+        font-size: 1.6rem;
+    }
+
+    @media (min-width: 1910px){
+        font-size: 1.875rem;
     }
 `;
 

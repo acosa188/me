@@ -9,6 +9,31 @@ const ProjectPreviewContainer = styled.div`
     margin-top: 50px;
     margin-left: -300px;
     margin-right: -300px;
+
+    @media (min-width: 1200px){
+        height: 500px;
+        margin-top: 20px;
+        margin-left: -150px;
+        margin-right: -150px;
+    }
+
+    @media (min-width: 1400px) {
+        height: 600px;
+        margin-top: 30px;
+        margin-left: -200px;
+        margin-right: -200px;
+    }
+
+    @media (min-width: 1700px) {
+        height: 700px;
+    }
+
+    @media (min-width: 1910px){
+        height: 900px;
+        margin-top: 50px;
+        margin-left: -300px;
+        margin-right: -300px;
+    }
 `;
 
 const Preview = styled.div`
